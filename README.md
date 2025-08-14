@@ -11,3 +11,5 @@ What I struggled with: I struggled with adding formatting my header and header i
 What I learned: I learned how to add a button that would show different text when clicked.
 
 This project doesn't have any commits because I made it in replit so I couldn't commit while making the project.
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
