@@ -1,0 +1,165 @@
+@font-face {
+   font-family: "lexend";
+   src: url('assets/lexend.ttf');
+}
+
+@font-face {
+   font-family: "cormorant-garamond";
+   src: url('assets/cormorantgaramond.ttf');
+}
+
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #A3B18A;
+}
+
+header {
+   text-align: center;
+   font-family: 'lexend';
+   font-size: 22px;
+   margin-top: 3px;
+   margin-bottom: 3px;
+}
+
+#header1 {
+   position: relative;
+   text-align: center;
+   margin: 0px;
+}
+
+main {
+   margin: 5px;
+   margin-bottom: 25px;
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: #344E41;
+  font-family: "lexend";
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+
+h2 {
+   color: #344E41;
+   font-family: "lexend";
+   margin-bottom: 5px;
+   font-size: 28px;
+}
+
+h4 {
+   color: #344E41;
+   font-family: "cormorant-garamond";
+   font-weight: 1500;
+   font-size: 20px;
+}
+
+p {
+   color: #344E41;
+   font-family: "cormorant-garamond";
+   font-weight: 1500;
+   font-size: 20px;
+}
+
+.row {
+   display: flex;
+   justify-content: center;
+}
+
+.column {
+   flex: 50%;
+   padding: 10px;
+}
+
+.col-img {
+   text-align: center;
+}
+
+.header-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #DAD7CD;
+   background: black;
+   background: rgba(0, 0, 0, 0.5);
+   margin: 2px;
+   padding: 10px;
+   font-size: 35px;
+}
+
+#change {
+   text-align: center;
+}
+
+#suggestion {
+   text-align: center;
+   font-size: 30px;
+   font-family: "cormorant-garamond";
+   
+}
+
+
+/* STYLE IMAGES */
+
+img {
+   width: 75%;
+}
+
+
+/* STYLE NAV BAR */
+
+.nav-ul {
+   list-style-type: none;
+   overflow: hidden;
+   text-align: center;
+   background-color: #3A5A40;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+.nav-li {
+   display: inline;
+}
+
+li a {
+   text-decoration: none;
+   color: #DAD7CD;
+   padding: 20px;
+}
+
+li a:hover {
+   background-color: #344E41;
+}
+
+/* STYLE BUTTONS */
+
+#button {
+   margin-top: 1em;
+   margin-bottom: 0.25em;
+   padding: 30px 40px;
+   font-size: 35px;
+   border: none;
+   background-color: #344E41;
+   color: #DAD7CD;
+   font-family: "lexend";
+   border-radius: 20px;
+}
+
+#button:hover {
+   background-color: #3A5A40;
+}
+
+#suggestionButton {
+   text-align: center;
+}
+
+/* ADD MORE! */
